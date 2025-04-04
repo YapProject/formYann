@@ -17,6 +17,7 @@ jobs:
           node-version: 20
           scope: '@Yapasy'
       - run: npm ci
+      - run: npm build
 
   publish-gpr:
     needs: build
